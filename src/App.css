@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-container {
+  display: flex;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 0;
+}
+
+.navbar-container h1 {
+  font-family: sans-serif;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 5rem;
+  margin-right: 2rem;
+}
+
+.home-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 170px);
+  justify-content: center;
+  gap: 2rem 4rem;
+}
+
+.home-medico-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 170px);
+  justify-content: center;
+  gap: 2rem 4rem;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px;
+}
+
+.home-card img {
+  width: 100%;
+}
+
+.home-card h2 {
+  padding: .2rem 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.home-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.home-card button {
+  width: 50%;
+  border-radius: .5rem;
+  margin: .1rem;
+}
+
+
+.informe-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-informe{
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.form-informe input {
+  height: 30px;
+  width: 200px;
+}
+
+.titulo-emitirinforme{
+  text-align: center;
+}
+
+.tabla-informe{
+  border: 1px black solid;
+  margin-bottom: 2rem;
+}
+
+.pres-contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-pres{
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.tabla-pres{
+  border: 1px black solid;
+  margin-bottom: 2rem;
+}
+
+.form-ingresar-pres {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-page {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-emitir-receta {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 200px);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.no-medicamentos {
+  text-align: center;
+}
+
+.item-recetado {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  justify-content: center;
+}
+
+.form-revisar-stock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
